@@ -6372,8 +6372,8 @@ Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
   display: none; }
 
 .wrapper.visible {
-  display: block;
-  visibility: visible; }
+  display: none;
+  visibility: hidden; }
 
 .wrapper .desktop-top {
  display: none;
@@ -6390,7 +6390,7 @@ Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
   font-family: wixFreemiumFontW01-55Roma, wixFreemiumFontW02-55Roma, wixFreemiumFontW10-55Roma, Helvetica Neue, Helvetica, Arial, メイリオ, meiryo, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
   letter-spacing: 0em;
   font-size: 0px;
-  z-index: 999; }
+  }
   .wrapper .desktop-top:hover {
     min-height: 72px;
     background-color: #43515c;
@@ -6398,7 +6398,6 @@ Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
     word-wrap: break-word; }
     .wrapper .desktop-top:hover > .hover1 {
       display: none;
-      font-family: wixFreemiumFontW01-35Thin, wixFreemiumFontW02-35Thin, wixFreemiumFontW10-35Thin, Helvetica Neue, Helvetica, Arial, メイリオ, meiryo, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
       padding-top: 4px; }
     .wrapper .desktop-top:hover > .arrow,
     .wrapper .desktop-top:hover > .hover2 {
@@ -6550,13 +6549,14 @@ Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
 
 .wixAds_wrapper-old .topLabel {
   padding: 6px;
-  font-size: 13px;
+  font-size: 0px;
   line-height: 1.3em;
   color: #FFF;
   width: 100%;
   font-size: 13px;
   color: #FFF;
   font-weight: bold;
+  display: none;
   line-height: 18px;
   text-align: justify;
   padding: 5px 10px; }
@@ -6566,7 +6566,6 @@ Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
     width: 16px;
     height: 16px;
     margin-right: 5px;
-    background-image: url("//static.wixstatic.com/media/0da768_0c5ce9e2ffa442bea0b79b690223a939~mv2.png");
     background-repeat: no-repeat;
     background-position: 0% 0%; }
   .wixAds_wrapper-old .topLabel .smallLogo {
@@ -6574,32 +6573,32 @@ Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
     text-indent: -9999px;
     width: 29px;
     height: 16px;
-    background-image: url("//static.wixstatic.com/media/0da768_0c5ce9e2ffa442bea0b79b690223a939~mv2.png");
+    background-image: url("#");
     background-repeat: no-repeat;
     background-position: -16px top; }
 
 .wixAds_wrapper-old .topContent {
-  font-size: 13px;
+  font-size: 0px;
   line-height: 1.3em;
   color: #ffffff;
   font-weight: bold;
   line-height: 18px;
   text-align: justify;
   padding: 5px 10px;
-  width: 100%; }
+  width: 100%; 
+  display: none;}
   .wixAds_wrapper-old .topContent .emphasis {
     color: #ffcc00;
     line-height: 26px; }
 
 .wixAds_wrapper-old .desktop-bottom {
   position: fixed;
-  z-index: 999;
-  width: 100%;
+display: none;  width: 100%;
   bottom: 0;
   max-height: 10vh; }
   .wixAds_wrapper-old .desktop-bottom:hover .siteBanner,
   .wixAds_wrapper-old .desktop-bottom:hover .footerLabel {
-    background-color: #222222 !important; }
+    background-color: #222222; display: none; }
   .wixAds_wrapper-old .desktop-bottom .footerLabel {
     width: 100%;
     height: 40px;
@@ -6617,7 +6616,7 @@ Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
       .wixAds_wrapper-old .desktop-bottom .footerLabel .siteBanner .bigMusa {
         text-indent: -9999px;
         width: 36px;
-        background-image: url("//static.wixstatic.com/media/0da768_0c5ce9e2ffa442bea0b79b690223a939~mv2.png");
+        background-image: url("#");
         background-repeat: no-repeat;
         background-position: left bottom;
         position: relative;
@@ -6631,7 +6630,7 @@ Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
         line-height: 47px;
         color: #ffffff;
         font-weight: bold;
-        font-size: 15px; }
+        font-size: 0px; }
         .wixAds_wrapper-old .desktop-bottom .footerLabel .siteBanner .txt a {
           color: #ffffff; }
     .wixAds_wrapper-old .desktop-bottom .footerLabel .emphasis {
@@ -6729,15 +6728,12 @@ Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
     display: none;
     visibility: visible; }
   .wix-ads-2.desktop {
-    z-index: 999;
+  display: none;
     position: fixed;
     top: 0; }
   .wix-ads-2.mobile {
-    z-index: 999; }
+  display: none;}
   .wix-ads-2 .desktop-top {
-    height: 50px;
-    box-sizing: border-box;
-    background: #eff1f2;
     display: none;
     justify-content: center;
     align-items: center;
@@ -6749,24 +6745,24 @@ Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
       display: none;
       align-items: center; }
       .wix-ads-2 .desktop-top > .contents .text {
-        font-family: wixFreemiumFontW01-65Medi, wixFreemiumFontW02-65Medi, wixFreemiumFontW10-65Medi, Helvetica Neue, Helvetica, Arial, メイリオ, meiryo, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
-        font-size: 14px;
+        font-size: 0px;
         color: #20303C;
         line-height: 24px;
         flex-shrink: 0; }
         .wix-ads-2 .desktop-top > .contents .text .wix-logo {
-          fill: #20303C;
           width: 36px;
+		  display: none;
           vertical-align: middle;
           padding-bottom: 6px;
-          height: 16px; }
+          height: 0px; }
           .wix-ads-2 .desktop-top > .contents .text .wix-logo > .dot {
-            fill: #fc0; }
+            fill: ffffff;
+display: none;			}
         .wix-ads-2 .desktop-top > .contents .text .com {
-          color: #20303C; }
+          color: #20303C;
+display: none;		  }
       .wix-ads-2 .desktop-top > .contents .button {
-        font-family: wixFreemiumFontW01-65Medi, wixFreemiumFontW02-65Medi, wixFreemiumFontW10-65Medi, Helvetica Neue, Helvetica, Arial, メイリオ, meiryo, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
-        font-size: 14px;
+        font-size: 0px;
         color: #a0138e;
         border: 1px solid #a0138e;
         display: none;
@@ -6780,9 +6776,11 @@ Imaging with any questions regarding Web fonts:  http://webfonts.fonts.com
         text-align: center; }
     .wix-ads-2 .desktop-top:hover {
       cursor: pointer;
-      background: #fff; }
+      background: #fff; 
+	  display: none;}
       .wix-ads-2 .desktop-top:hover .button {
         color: #fff;
+		display: none;
         background-color: #a0138e; }
   .wix-ads-2 .mobile-top {
     height: 38px;
