@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: [" Parvika Singhal.", " Engineer.", " Full Stack Developer.", " Web Developer."],
+      strings: [" Parvika Singhal.", "a Programmer.", "a Full Stack Developer.", "a Wanderlust."],
       typeSpeed: 100,
       loop: true,
     });
