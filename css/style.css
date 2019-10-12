@@ -52,6 +52,10 @@ a {
   transition: all 0.5s ease-in-out 0s;
 }
 
+.res{
+  color: #fff;
+}
+
 a:hover {
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
@@ -312,11 +316,13 @@ nav ul li a {
   font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
+  padding-left: 20px;
 }
 
 #about .about-descr .separator {
   margin-bottom: 0;
   text-align: left;
+    padding-left: 20px;
 }
 
 
