@@ -39,8 +39,11 @@ $(document).ready(function() {
   function onScroll(event) {
     if ($('.home').length) {
       var scrollPos = $(document).scrollTop();
+      console.log(scrollPos);
+
       $('nav ul li a').each(function() {
         var currLink = $(this);
+        console.log(currLink);
         var refElement = $(currLink.attr("href"));
       });
     }
